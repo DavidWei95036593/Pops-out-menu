@@ -1,0 +1,45 @@
+
+#dropdown {
+    position: absolute;
+    display: inline-block;
+}
+#countdown{
+  font-size:50px;
+  color:red;
+}
+#battery{
+    font-size:70px;
+}
+.showhidden {
+	background-color: #3366ff;
+	color: white;
+	padding: 10px;
+    height:200px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	font-family: 'Playfair Display', serif;
+    z-index:1;
+}
+
+.showhidden:hover {
+	background-color: #1a53ff;
+}
+
+.content {
+    position: relative;
+    top:-200px;
+    left:109px;
+    width:000px;
+    height: 200px;
+    overflow: auto;
+    background-color: #f9f9f9;
+    box-shadow: 5px 10px 16px 0px rgba(0,0,0,0.3);
+    z-index: 0;
+    border-radius: 5px;
+    transition:  1.5s ease-in-out;
+}
+.show {
+   width:109px;
+   height:200px;
+}
